@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.containor{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+}
+
+.front{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+  background-color: rgb(6, 6, 21);
+  color: #fff;
+}
+.front p{
+    font-style: italic;
+}
+.about{
+    padding: 70px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: rgb(58, 210, 244);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about p{
+    margin: 20px;
+}
+
+
+.education{
+   padding: 70px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(244, 58, 225);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     overflow: hidden;
+}
+.card1{
+     margin-top: 20px;
+    width: 50%;
+   padding: 10px;
+    background-color: #fff;
+    color: black;
+     border-radius: 5px;
+     text-align: center;
+     overflow: hidden;
+}
+.card2{
+    text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+
+.skills{
+    margin-top: 15px;
+      padding: 70px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(58, 244, 126);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     overflow: hidden;
+}
+.skills-card1{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.skills-card2{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.skills-card3{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.skills-card4{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.projects{
+     margin-top: 15px;
+      padding: 70px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 58);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     overflow: hidden;
+}
+.project1{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.project2{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.project3{
+      text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+
+.contact{
+       margin-top: 15px;
+      padding: 70px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(244, 58, 95);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     overflow: hidden;
+}
+.contact-card1{
+     text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.contact-card2{
+     text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.contact-card3{
+     text-align: center;
+     width: 50%;
+    margin-top: 20px;
+ padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+footer{
+    padding: 20px;
+    background-color: darkmagenta;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
